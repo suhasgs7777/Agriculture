@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+   padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.twenty{
+    width: 50px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 5%;
+      
+
+
+
+
+
+}
+.p{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    align-content: flex-start;
+    position: absolute;
+    left: 10%;
+}
+
+.logo{
+    width: 38px;
+    height: 45px;
+
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    gap: 50px;
+    
+
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+        height: 3px;
+        border-radius: 10px ;
+        background : red;    
+}
+
+
+.logo{
+    
+    width: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    left: 100%;
+}
